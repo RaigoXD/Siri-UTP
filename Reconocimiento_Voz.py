@@ -16,7 +16,7 @@ try:
         print(receptor.energy_threshold);
         print("Escuchando...");
         voice = receptor.listen(source);
-        rec = receptor.recognize_google(voice);
+        rec = receptor.recognize_google(voice,language="es-CO");
         print(rec);
 except:
     pass
