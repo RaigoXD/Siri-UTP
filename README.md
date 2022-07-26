@@ -1,5 +1,4 @@
 # Siri-UTP
  
- Esto es solo para ver de manera muy basica el proyecto.
-Respositorio hecho para explicar 
-mejorar readme XD
+Esto es solo para ver de manera muy basica el proyecto.
+Respositorio hecho para explicar
