@@ -1,12 +1,16 @@
-from testToSpeech import *
-from speechToText import *
+from modules.testToSpeech import Talker
+from modules.speechToText import Listener
 
-talker = Talker();
-talker.setVoice(voice=3);
+talker = Talker()  
+talker.showAllVoices()
 
-listener = Listener();
+#talker.setVoice(voice=3)  
 
-string = listener.listen(umbral=True);
+#listener = Listener()  
+#listener.ambientNoise()
 
-print(string);
-talker.talk(string);
+
+#string = listener.listen(umbral=True)  
+
+#print(string) 
+#talker.talk(string)  
